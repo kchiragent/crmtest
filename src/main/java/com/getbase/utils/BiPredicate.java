@@ -1,0 +1,5 @@
+package com.getbase.utils;
+
+public interface BiPredicate<T, U> {
+    boolean test(T t, U u);
+}
